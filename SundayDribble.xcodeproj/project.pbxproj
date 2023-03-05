@@ -13,6 +13,7 @@
 		4C5CAF8429B51CF5002570A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5CAF8329B51CF5002570A2 /* Preview Assets.xcassets */; };
 		4C5CAF8B29B51F64002570A2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CAF8A29B51F64002570A2 /* CardView.swift */; };
 		4C5CAF8D29B527B0002570A2 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CAF8C29B527B0002570A2 /* CircleProgressView.swift */; };
+		4C5CAF8F29B53013002570A2 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CAF8E29B53013002570A2 /* DropDownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4C5CAF8329B51CF5002570A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C5CAF8A29B51F64002570A2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4C5CAF8C29B527B0002570A2 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		4C5CAF8E29B53013002570A2 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				4C5CAF8029B51CF5002570A2 /* Assets.xcassets */,
 				4C5CAF8229B51CF5002570A2 /* Preview Content */,
 				4C5CAF8C29B527B0002570A2 /* CircleProgressView.swift */,
+				4C5CAF8E29B53013002570A2 /* DropDownView.swift */,
 			);
 			path = SundayDribble;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5CAF7F29B51CF3002570A2 /* ContentView.swift in Sources */,
+				4C5CAF8F29B53013002570A2 /* DropDownView.swift in Sources */,
 				4C5CAF8D29B527B0002570A2 /* CircleProgressView.swift in Sources */,
 				4C5CAF8B29B51F64002570A2 /* CardView.swift in Sources */,
 				4C5CAF7D29B51CF3002570A2 /* SundayDribbleApp.swift in Sources */,

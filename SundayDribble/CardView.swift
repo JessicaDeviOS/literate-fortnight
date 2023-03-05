@@ -12,18 +12,9 @@ struct CardView: View {
         ZStack {
             Rectangle()
                 .foregroundColor(Color("cardBackground"))
-                .frame(height: 250)
+                .frame(height: 220)
                 .cornerRadius(40)
-            Circle()
-                .frame(height: 200)
-                .foregroundColor(Color("appBackground"))
-            VStack {
-                Text("78%")
-                    .font(.title)
-                    .bold()
-                Text("Scanning...")
-            }
-            .foregroundColor(.white)
+            CircleProgressView()
         }
     }
 }

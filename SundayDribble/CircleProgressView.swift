@@ -8,19 +8,31 @@
 import SwiftUI
 
 struct CircleProgressView: View {
-    @State var progress = 0.25
+    @State var progress = 0.78
+    private let lineWidth: CGFloat = 20
     
     var body: some View {
         ZStack {
             Circle()
-                .stroke(Color.pink.opacity(0.5), lineWidth: 30)
+                .foregroundColor(Color("appBackground"))
+            Circle()
+                .stroke(.white, lineWidth: lineWidth)
             Circle()
                 .trim(from: 0, to: progress)
-                .stroke(Color.pink, style: StrokeStyle(lineWidth: 30, lineCap: .round))
+                .stroke(Color("progressColor"), style: StrokeStyle(lineWidth: lineWidth, lineCap: .round))
                 .rotationEffect(.degrees(-90))
                 .animation(.easeOut, value: progress)
+            VStack {
+                Text("\(progress * 100, specifier: "%.0f")%")
+                    .font(.title)
+                    .bold()
+                if progress < 1.0 {
+                    Text("Scanning...")
+                }
+            }
+            .foregroundColor(.white)
         }
-        .padding()
+        .frame(height: 180)
     }
 }
 
